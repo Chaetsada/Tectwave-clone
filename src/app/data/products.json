@@ -1,0 +1,380 @@
+[
+    {
+        "id": 1,
+        "title": "Lrynx Watch",
+        "category": "gear",
+        "description": "Elevate your style with the sophisticated Lryx Watch, a perfect blend of elegance and functionality",
+        "price": 349.99,
+        "link": "/products/lryx-watch",
+        "thumbnail": "https://framerusercontent.com/images/ucSTRAtxT2D1lfGCCOuKVNTIslk.png",
+        "images": [
+            "https://framerusercontent.com/images/ucSTRAtxT2D1lfGCCOuKVNTIslk.png",
+            "https://framerusercontent.com/images/7a25NrIhyYDZDdCstoYn3hfr8.png",
+            "https://framerusercontent.com/images/jU1NozSNOybPJvWz640VumieiA.png",
+            "https://framerusercontent.com/images/mPlzVKdkiPjsaJxjyReX82Cc7mc.png",
+            "https://framerusercontent.com/images/JtuCXNgvboRKGblBF6AGKcc0398.png"
+        ],
+        "related": [
+            {
+                "tag": "TECHNOLOGY",
+                "image": "https://framerusercontent.com/images/c4VlFD3hXnlGGZX0eZBlR3g18U.png",
+                "name": "VR Headset",
+                "desc": "Step into the realm of virtual reality and unlock immersive experiences with our cutting-edge VR headset",
+                "price": 549.99,
+                "link": "/products/vr-headset"
+            },
+            {
+                "tag": "ACCESSORY",
+                "image": "https://framerusercontent.com/images/Fd0eZTgAzpZJV5NLAjTLwtlz3M.jpg",
+                "name": "Phone Charger Port",
+                "desc": "Stay connected and keep your devices powered up with our convenient and versatile phone charger port",
+                "price": 199.99,
+                "link": "/products/iphone-case"
+            },
+            {
+                "tag": "ACCESSORY",
+                "image": "https://framerusercontent.com/images/rt6R4qXulMH19LBMoEWW5QgHgA.png",
+                "name": "iPhone Case",
+                "desc": "Protect your iPhone in style with our sleek and durable iPhone case, combining protection and aesthetics",
+                "price": 29.99,
+                "link": "/products/iphone-case"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Premium Earbuds",
+        "category": "gear",
+        "description": "Experience deep, powerful bass and crystal-clear audio with the Headphone 21 Bass, perfect for music enthusiasts",
+        "price": 389.99,
+        "link": "/products/premium-earbuds",
+        "thumbnail": "https://framerusercontent.com/images/Ora09nEcGUtpkHvjx69B5cntww.png",
+        "images": [
+            "https://framerusercontent.com/images/Ora09nEcGUtpkHvjx69B5cntww.png",
+            "https://framerusercontent.com/images/yReecnqw5MGyu0e4lkhrQTH9fY.png",
+            "https://framerusercontent.com/images/Kh9HQqMwUwxgDqTZ383i2lDWmk.png",
+            "https://framerusercontent.com/images/ACgUonkl6oxR1f3a6GUUNNBLJQ.png",
+            "https://framerusercontent.com/images/W11ZnRlifqQmhRzudFGbvB7xI.png"
+        ],
+        "related": [
+            {
+                "tag": "TECHNOLOGY",
+                "image": "https://framerusercontent.com/images/c4VlFD3hXnlGGZX0eZBlR3g18U.png",
+                "name": "VR Headset",
+                "desc": "Step into the realm of virtual reality and unlock immersive experiences with our cutting-edge VR headset",
+                "price": 549.99,
+                "link": "/products/vr-headset"
+            },
+            {
+                "tag": "ACCESSORY",
+                "image": "https://framerusercontent.com/images/Fd0eZTgAzpZJV5NLAjTLwtlz3M.jpg",
+                "name": "Phone Charger Port",
+                "desc": "Stay connected and keep your devices powered up with our convenient and versatile phone charger port",
+                "price": 199.99,
+                "link": "/products/iphone-case"
+            },
+            {
+                "tag": "ACCESSORY",
+                "image": "https://framerusercontent.com/images/rt6R4qXulMH19LBMoEWW5QgHgA.png",
+                "name": "iPhone Case",
+                "desc": "Protect your iPhone in style with our sleek and durable iPhone case, combining protection and aesthetics",
+                "price": 29.99,
+                "link": "/products/iphone-case"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Headphone 21-Bass",
+        "category": "gear",
+        "description": "Experience deep, powerful bass and crystal-clear audio with the Headphone 21 Bass, perfect for music enthusiasts",
+        "price": 499.99,
+        "link": "/products/headphone-21-bass",
+        "thumbnail": "https://framerusercontent.com/images/r0vQD9uYDPhhCoDQk4QQUCTxaaQ.jpg",
+        "images": [
+            "https://framerusercontent.com/images/r0vQD9uYDPhhCoDQk4QQUCTxaaQ.jpg",
+            "https://framerusercontent.com/images/Gop1XtJnT7kXcGZykv7ZfXw2BU.png",
+            "https://framerusercontent.com/images/dnXukLcvtn4TmhyPW0cJ91tM9s.png",
+            "https://framerusercontent.com/images/Za1JmWF64M8Bdp1l2vEdHGMhXg.jpg",
+            "https://framerusercontent.com/images/nyvKO6dkJH7jSK0mBuC2L57zSL8.png"
+        ],
+        "related": [
+            {
+                "tag": "TECHNOLOGY",
+                "image": "https://framerusercontent.com/images/c4VlFD3hXnlGGZX0eZBlR3g18U.png",
+                "name": "VR Headset",
+                "desc": "Step into the realm of virtual reality and unlock immersive experiences with our cutting-edge VR headset",
+                "price": 549.99,
+                "link": "/products/vr-headset"
+            },
+            {
+                "tag": "ACCESSORY",
+                "image": "https://framerusercontent.com/images/Fd0eZTgAzpZJV5NLAjTLwtlz3M.jpg",
+                "name": "Phone Charger Port",
+                "desc": "Stay connected and keep your devices powered up with our convenient and versatile phone charger port",
+                "price": 199.99,
+                "link": "/products/iphone-case"
+            },
+            {
+                "tag": "ACCESSORY",
+                "image": "https://framerusercontent.com/images/rt6R4qXulMH19LBMoEWW5QgHgA.png",
+                "name": "iPhone Case",
+                "desc": "Protect your iPhone in style with our sleek and durable iPhone case, combining protection and aesthetics",
+                "price": 29.99,
+                "link": "/products/iphone-case"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "VR Headset",
+        "category": "technology",
+        "description": "Step into the realm of virtual reality and unlock immersive experiences with our cutting-edge VR headset",
+        "price": 549.99,
+        "link": "/products/vr-headset",
+        "thumbnail": "https://framerusercontent.com/images/c4VlFD3hXnlGGZX0eZBlR3g18U.png",
+        "images": [
+            "https://framerusercontent.com/images/c4VlFD3hXnlGGZX0eZBlR3g18U.png",
+            "https://framerusercontent.com/images/tNI4PqYmU94ZTstLuVJKPPiQo.png",
+            "https://framerusercontent.com/images/g2vn1akl9ptxqmZOUaTVDUHyb4.png",
+            "https://framerusercontent.com/images/f3sG7FvAPqf8z60HSf00CRBgFg.png",
+            "https://framerusercontent.com/images/TPpAL6A3f9OCGVZvFMaeKz1eSzM.png"
+        ],
+        "related": [
+            {
+                "tag": "GEAR",
+                "image": "https://framerusercontent.com/images/ucSTRAtxT2D1lfGCCOuKVNTIslk.png",
+                "title": "Lrynx Watch",
+                "desc": "Elevate your style with the sophisticated Lryx Watch, a perfect blend of elegance and functionality",
+                "price": 349.99,
+                "link": "/products/lryx-watch"
+            },
+            {
+                "tag": "GEAR",
+                "image": "https://framerusercontent.com/images/Ora09nEcGUtpkHvjx69B5cntww.png",
+                "name": "Premium Earbuds",
+                "desc": "Experience deep, powerful bass and crystal-clear audio with the Headphone 21 Bass, perfect for music enthusiasts",
+                "price": 389.99,
+                "link": "/products/iphone-case"
+            },
+            {
+                "tag": "GEAR",
+                "image":  "https://framerusercontent.com/images/r0vQD9uYDPhhCoDQk4QQUCTxaaQ.jpg",
+                "name": "Headphone 21-Bass",
+                "desc": "Experience deep, powerful bass and crystal-clear audio with the Headphone 21 Bass, perfect for music enthusiasts",
+                "price": 499.99,
+                "link": "/products/headphone-21-bass"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Phone Charger Port",
+        "category": "accessory",
+        "description": "Stay connected and keep your devices powered up with our convenient and versatile phone charger port",
+        "price": 199.99,
+        "link": "/products/phone-charger-port",
+        "thumbnail": "https://framerusercontent.com/images/Fd0eZTgAzpZJV5NLAjTLwtlz3M.jpg",
+        "images": [
+            "https://framerusercontent.com/images/Fd0eZTgAzpZJV5NLAjTLwtlz3M.jpg",
+            "https://framerusercontent.com/images/PpK3W128b9waXFOrFTQ0JnCg.png",
+            "https://framerusercontent.com/images/zxfsbO0tQHlmzQDTpkLnMlfaWQ.png",
+            "https://framerusercontent.com/images/bp6b5AYHO6t9S7ubO6rpeqTmrs.jpg",
+            "https://framerusercontent.com/images/WQ5PRgRPZJkqT0Dvydw1LpdVpR0.png"
+        ],
+        "related": [
+            {
+                "tag": "GEAR",
+                "image": "https://framerusercontent.com/images/ucSTRAtxT2D1lfGCCOuKVNTIslk.png",
+                "title": "Lrynx Watch",
+                "desc": "Elevate your style with the sophisticated Lryx Watch, a perfect blend of elegance and functionality",
+                "price": 349.99,
+                "link": "/products/lryx-watch"
+            },
+            {
+                "tag": "GEAR",
+                "image": "https://framerusercontent.com/images/Ora09nEcGUtpkHvjx69B5cntww.png",
+                "name": "Premium Earbuds",
+                "desc": "Experience deep, powerful bass and crystal-clear audio with the Headphone 21 Bass, perfect for music enthusiasts",
+                "price": 389.99,
+                "link": "/products/iphone-case"
+            },
+            {
+                "tag": "GEAR",
+                "image":  "https://framerusercontent.com/images/r0vQD9uYDPhhCoDQk4QQUCTxaaQ.jpg",
+                "name": "Headphone 21-Bass",
+                "desc": "Experience deep, powerful bass and crystal-clear audio with the Headphone 21 Bass, perfect for music enthusiasts",
+                "price": 499.99,
+                "link": "/products/headphone-21-bass"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "iPhone Case",
+        "category": "accessory",
+        "description": "Protect your iPhone in style with our sleek and durable iPhone case, combining protection and aesthetics",
+        "price": 29.99,
+        "link": "/products/iphone-case",
+        "thumbnail": "https://framerusercontent.com/images/rt6R4qXulMH19LBMoEWW5QgHgA.png",
+        "images": [
+            "https://framerusercontent.com/images/rt6R4qXulMH19LBMoEWW5QgHgA.png",
+            "https://framerusercontent.com/images/cbnVDlLaSObvmEYH09WU1wH34.png",
+            "https://framerusercontent.com/images/tmot5WRJ4E2iIwfuOl16SxeomQ.png",
+            "https://framerusercontent.com/images/apXXueOji5WNOfLEN7wRU7HEj4.png",
+            "https://framerusercontent.com/images/rt6R4qXulMH19LBMoEWW5QgHgA.png"
+        ],
+        "related": [
+            {
+                "tag": "GEAR",
+                "image": "https://framerusercontent.com/images/ucSTRAtxT2D1lfGCCOuKVNTIslk.png",
+                "title": "Lrynx Watch",
+                "desc": "Elevate your style with the sophisticated Lryx Watch, a perfect blend of elegance and functionality",
+                "price": 349.99,
+                "link": "/products/lryx-watch"
+            },
+            {
+                "tag": "GEAR",
+                "image": "https://framerusercontent.com/images/Ora09nEcGUtpkHvjx69B5cntww.png",
+                "name": "Premium Earbuds",
+                "desc": "Experience deep, powerful bass and crystal-clear audio with the Headphone 21 Bass, perfect for music enthusiasts",
+                "price": 389.99,
+                "link": "/products/iphone-case"
+            },
+            {
+                "tag": "GEAR",
+                "image":  "https://framerusercontent.com/images/r0vQD9uYDPhhCoDQk4QQUCTxaaQ.jpg",
+                "name": "Headphone 21-Bass",
+                "desc": "Experience deep, powerful bass and crystal-clear audio with the Headphone 21 Bass, perfect for music enthusiasts",
+                "price": 499.99,
+                "link": "/products/headphone-21-bass"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Purifier",
+        "category": "technology",
+        "description": "Breathe in cleaner, fresher air with our high-performance purifier, designed to improve indoor air quality",
+        "price": 49.99,
+        "link": "/products/purifier",
+        "thumbnail": "https://framerusercontent.com/images/MPbVK9bO5c2jVsowVlIWlKUARY.png",
+        "images": [
+            "https://framerusercontent.com/images/MPbVK9bO5c2jVsowVlIWlKUARY.png",
+            "https://framerusercontent.com/images/bDUArCP2rNpeaa0OfKtHzRY7nFM.png",
+            "https://framerusercontent.com/images/T2ng8oheqNQpVx2EIX2YW7xKP2Y.png",
+            "https://framerusercontent.com/images/VHvDShxArZv12GnaxAvl3quIjns.jpg",
+            "https://framerusercontent.com/images/zsAt526gTiP2TQaNcjIZ5xUl0.jpg"
+        ],
+        "related": [
+            {
+                "tag": "GEAR",
+                "image": "https://framerusercontent.com/images/ucSTRAtxT2D1lfGCCOuKVNTIslk.png",
+                "title": "Lrynx Watch",
+                "desc": "Elevate your style with the sophisticated Lryx Watch, a perfect blend of elegance and functionality",
+                "price": 349.99,
+                "link": "/products/lryx-watch"
+            },
+            {
+                "tag": "GEAR",
+                "image": "https://framerusercontent.com/images/Ora09nEcGUtpkHvjx69B5cntww.png",
+                "name": "Premium Earbuds",
+                "desc": "Experience deep, powerful bass and crystal-clear audio with the Headphone 21 Bass, perfect for music enthusiasts",
+                "price": 389.99,
+                "link": "/products/iphone-case"
+            },
+            {
+                "tag": "GEAR",
+                "image":  "https://framerusercontent.com/images/r0vQD9uYDPhhCoDQk4QQUCTxaaQ.jpg",
+                "name": "Headphone 21-Bass",
+                "desc": "Experience deep, powerful bass and crystal-clear audio with the Headphone 21 Bass, perfect for music enthusiasts",
+                "price": 499.99,
+                "link": "/products/headphone-21-bass"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "title": "MX Master 3",
+        "category": "gear",
+        "description": "Take control of your workflow with precision and ease using the MX Master 3, the ultimate productsivity mouse",
+        "price": 149.99,
+        "link": "/products/mx-master-3",
+        "thumbnail": "https://framerusercontent.com/images/4UnXwoQPTBHjZGDJ1LNhcNeOJ4s.jpg",
+        "images": [
+            "https://framerusercontent.com/images/4UnXwoQPTBHjZGDJ1LNhcNeOJ4s.jpg",
+            "https://framerusercontent.com/images/berSZMAREgPUpah03csduOQssY.png",
+            "https://framerusercontent.com/images/VQiCMUnoMpCoF0gpGUjLNUj0Lg.png",
+            "https://framerusercontent.com/images/2fUCj22R5HNoHHHRXLutcE5jQgM.png",
+            "https://framerusercontent.com/images/XjSeDTEB1oRJwgT6En8DjSsJa0E.png"
+        ],
+        "related": [
+            {
+                "tag": "TECHNOLOGY",
+                "image": "https://framerusercontent.com/images/c4VlFD3hXnlGGZX0eZBlR3g18U.png",
+                "name": "VR Headset",
+                "desc": "Step into the realm of virtual reality and unlock immersive experiences with our cutting-edge VR headset",
+                "price": 549.99,
+                "link": "/products/vr-headset"
+            },
+            {
+                "tag": "ACCESSORY",
+                "image": "https://framerusercontent.com/images/Fd0eZTgAzpZJV5NLAjTLwtlz3M.jpg",
+                "name": "Phone Charger Port",
+                "desc": "Stay connected and keep your devices powered up with our convenient and versatile phone charger port",
+                "price": 199.99,
+                "link": "/products/iphone-case"
+            },
+            {
+                "tag": "ACCESSORY",
+                "image": "https://framerusercontent.com/images/rt6R4qXulMH19LBMoEWW5QgHgA.png",
+                "name": "iPhone Case",
+                "desc": "Protect your iPhone in style with our sleek and durable iPhone case, combining protection and aesthetics",
+                "price": 29.99,
+                "link": "/products/iphone-case"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "title": "iWatch SE 3",
+        "category": "gear",
+        "description": "Stay connected and monitor your fitness effortlessly with the iWatch SE 3, your essential companion for an active",
+        "price": 349.99,
+        "link": "/products/iwatch-se-3",
+        "thumbnail": "https://framerusercontent.com/images/r59ibP0ToXB3BqtNzkTUDO9ww.jpg",
+        "images": [
+            "https://framerusercontent.com/images/r59ibP0ToXB3BqtNzkTUDO9ww.jpg",
+            "https://framerusercontent.com/images/gwI54viPFVYGDdbTWc3aT9erBA.png",
+            "https://framerusercontent.com/images/xXivwpW1fAxYqd33JdyrIjAn4s.jpg",
+            "https://framerusercontent.com/images/mHPSewytudzkqpaewSdTBmYCTB4.jpeg",
+            "https://framerusercontent.com/images/SFTSw86eQ5hsUT0B7twmDY5bYxM.png"
+        ],
+        "related": [
+            {
+                "tag": "TECHNOLOGY",
+                "image": "https://framerusercontent.com/images/c4VlFD3hXnlGGZX0eZBlR3g18U.png",
+                "name": "VR Headset",
+                "desc": "Step into the realm of virtual reality and unlock immersive experiences with our cutting-edge VR headset",
+                "price": 549.99,
+                "link": "/products/vr-headset"
+            },
+            {
+                "tag": "ACCESSORY",
+                "image": "https://framerusercontent.com/images/Fd0eZTgAzpZJV5NLAjTLwtlz3M.jpg",
+                "name": "Phone Charger Port",
+                "desc": "Stay connected and keep your devices powered up with our convenient and versatile phone charger port",
+                "price": 199.99,
+                "link": "/products/iphone-case"
+            },
+            {
+                "tag": "ACCESSORY",
+                "image": "https://framerusercontent.com/images/rt6R4qXulMH19LBMoEWW5QgHgA.png",
+                "name": "iPhone Case",
+                "desc": "Protect your iPhone in style with our sleek and durable iPhone case, combining protection and aesthetics",
+                "price": 29.99,
+                "link": "/products/iphone-case"
+            }
+        ]
+    }
+]
