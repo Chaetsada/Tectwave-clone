@@ -1,5 +1,4 @@
-
-import getArticle from "@/app/actions/getArticle";
+import { articles as data } from "@/app/lib/data";
 import ArticleCard from "@/app/components/ArticleCard";
 import { ArticleProps } from "@/app/lib/type";
 import Link from "next/link";
@@ -7,10 +6,7 @@ import React from "react";
 
 
 export default async function ArticlesSection() {
-  const data = await getArticle();
-  const article = data.slice(0,2)
 
-  
   return (
     <main className="pt-[60px] pb-[80px] px-[24px] md:px-[40px] lg:px-[64px] lg:py-[120px]">
       <div className="flex flex-col gap-10">
@@ -37,7 +33,7 @@ export default async function ArticlesSection() {
         </header>
 
         <div className="flex flex-col gap-5 md:grid md:grid-cols-2">
-          {article.map((item:ArticleProps ) => (
+          {data.slice(0,2).map((item:ArticleProps ) => (
             <ArticleCard
               key={item.id}
               item={item}

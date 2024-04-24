@@ -1,11 +1,9 @@
-import getArticle from "@/app/actions/getArticle";
+import { articles as data } from "@/app/lib/data";
 import ArticleSection from "@/app/components/ArticleSection";
 import { MotionDiv, MotionHeading } from "@/app/components/MotionComponent";
 import { ArticleProps } from "@/app/lib/type";
 import Image from "next/image";
 import Link from "next/link";
-
-
 
 const imageVaraient = {
   initial: {
@@ -35,11 +33,7 @@ const textVarient = {
   },
 };
 
-
 const page = async ({ params }: any) => {
-
-  const data = await getArticle();
-
   const article = data.filter( (item:ArticleProps) => item.link === `/articles/${params.slug}`);
   return (
     <main className="min-h-screen py-[80px] px-[24px] md:px-[80px]">

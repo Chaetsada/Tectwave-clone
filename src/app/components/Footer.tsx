@@ -1,10 +1,10 @@
 'use client'
 import React from "react";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
-import { MdOutlineEmail } from "react-icons/md";
+  import { FaXTwitter } from "react-icons/fa6";
+  import { FaInstagram } from "react-icons/fa";
+  import { FaFacebookF } from "react-icons/fa";
+  import { FaLinkedinIn } from "react-icons/fa";
+  import { MdOutlineEmail } from "react-icons/md";
 import { BsPhone } from "react-icons/bs";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
@@ -26,7 +26,7 @@ const Footer = () => {
   const pathname= usePathname();
 
   return (
-    <footer className="bg-ft text-neutral-400 rounded-tl-[56px] rounded-tr-[56px] pt-[120px] px-[40px] pb-[80px] md:pt-[80px] md:px-[40px]  lg:pt-[120px] lg:px-[64px]">
+    <footer className="bg-black text-neutral-400 rounded-tl-[56px] rounded-tr-[56px] pt-[120px] px-[40px] pb-[80px] md:pt-[80px] md:px-[40px]  lg:pt-[120px] lg:px-[64px]">
       <div className="flex flex-col xl:flex-row gap-10">
         <section className="h-fit flex flex-col gap-5 w-full xl:max-w-[310px]">
           <h2 className="text-3xl text-white font-semibold">Tech Wave</h2>

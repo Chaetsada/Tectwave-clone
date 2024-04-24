@@ -18,30 +18,30 @@ const variant = {
 };
 const featuredProd = [
   {
+    title: "iWatch SE 3",
     category: "GEAR",
     thumbnail: "https://framerusercontent.com/images/r59ibP0ToXB3BqtNzkTUDO9ww.jpg",
-    title: "iWatch SE 3",
     price: "$349.99 USD",
     link: "/products/iwatch-se-3",
   },
   {
+    title: "MX Master 3",
     category: "GEAR",
     thumbnail: "https://framerusercontent.com/images/4UnXwoQPTBHjZGDJ1LNhcNeOJ4s.jpg",
-    title: "MX Master 3",
     price: "$149.99 USD",
     link: "/products/mx-master-3",
   },
   {
+    title: "Purifier",
     category: "GEAR",
     thumbnail: "https://framerusercontent.com/images/MPbVK9bO5c2jVsowVlIWlKUARY.png",
-    title: "Purifier",
     price: "$49.99 USD",
     link: "/products/purifier",
   },
   {
+    title: "iPhone Case",
     category: "GEAR",
     thumbnail: "https://framerusercontent.com/images/rt6R4qXulMH19LBMoEWW5QgHgA.png",
-    title: "iPhone Case",
     price: "$29.99 USD",
     link: "/products/iphone-case",
   },

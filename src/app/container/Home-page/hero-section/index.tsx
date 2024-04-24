@@ -47,7 +47,7 @@ export default function HeroSection() {
   return (
     <main
       ref={ref}
-      className="h-[calc(100vh-68px)] w-screen grid place-items-center overflow-hidden relative"
+      className="h-[calc(100vh-68px)] w-screen grid place-items-center overflow-hidden relative z-20"
     >
       <motion.div
         variants={textVariant}

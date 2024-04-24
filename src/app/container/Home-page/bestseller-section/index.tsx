@@ -5,35 +5,35 @@ import Link from "next/link";
 
 const bestSellerProd = [
   {
+    title: "Lryx Watch",
     category: "GEAR",
     thumbnail: "https://framerusercontent.com/images/ucSTRAtxT2D1lfGCCOuKVNTIslk.png",
-    title: "Lryx Watch",
     description: "Elevate your style with the sophisticated Lryx Watch, a perfect",
-    price: "$349.99 USD",
+    price: 349.99 ,
     link: "/products/lryx-watch",
   },
   {
+    title: "Premium Earbuds",
     category: "GEAR",
     thumbnail: "https://framerusercontent.com/images/Ora09nEcGUtpkHvjx69B5cntww.png",
-    title: "Premium Earbuds",
     description: "Immerse yourself in premium sound quality and enjoy the ultimate ",
-    price: "$389.99 USD",
+    price: 389.99 ,
     link: "/products/premium-earbuds",
   },
   {
+    title: "Headphone 21-Bass",
     category: "GEAR",
     thumbnail: "https://framerusercontent.com/images/r0vQD9uYDPhhCoDQk4QQUCTxaaQ.jpg",
-    title: "Headphone 21-Bass",
     description: "Experience deep, powerful bass and crystal-clear audio with the",
-    price: "$499.99 USD",
+    price: 499.99,
     link: "/products/headphone-21-bass",
   },
   {
+    title: "VR Headset",
     category: "TECHNOLOGY",
     thumbnail: "https://framerusercontent.com/images/c4VlFD3hXnlGGZX0eZBlR3g18U.png",
-    title: "VR Headset",
     description: "Step into the realm of virtual reality and unlock immersive experiences ",
-    price: "$549.99 USD",
+    price: 549.99,
     link: "/products/vr-headset",
   },
 ];
@@ -92,7 +92,7 @@ export default function BestSellerSection() {
                   <p className="text-xs lg:text-base text-neutral-500 max-w-[280px]">
                     {product.description}
                   </p>
-                  <h6 className="mt-5">{product.price}</h6>
+                  <h6 className="mt-5">${product.price} USD</h6>
                 </div>
               </Link>
             </div>

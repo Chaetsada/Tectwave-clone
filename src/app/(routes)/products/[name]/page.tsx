@@ -2,14 +2,15 @@ import Image from "next/image";
 import Link from "next/link";
 import LinkButton from "@/app/components/LinkButton";
 import { MotionDiv } from "@/app/components/MotionComponent";
-import getProduct from "@/app/actions/getProduct";
-import { ProductProp, relatedProduct } from "@/app/lib/type";
-import { testimonial } from "@/app/lib/constant";
+import { products ,relateProducts, testimonial } from "@/app/lib/data";
+
+//icon
+import { ProductProp } from "@/app/lib/type";
 import { FaStripe } from "react-icons/fa6";
 import { FaCcPaypal } from "react-icons/fa6";
 import { FaCcMastercard } from "react-icons/fa";
 
-const fadeInVaraient = {
+const fadeInVariants = {
   initial: {
     y: 50,
     opacity: 0,
@@ -23,7 +24,6 @@ const fadeInVaraient = {
     },
   },
 };
-
 const relateProdVarient = {
   initial: {
     y: 80,
@@ -38,16 +38,16 @@ const relateProdVarient = {
   },
 };
 
-const page = async ({ params }: any) => {
-  const data = await getProduct();
+const page = ({ params }: any) => {
 
-  const product = data.filter(
+
+  const filteredProduct = products.filter(
     (item: ProductProp) => item.link === `/products/${params.name}`
   );
 
   return (
     <main className="p-[24px] lg:p-[40px] relative">
-      {product.map((product: ProductProp) => (
+      {filteredProduct.map((product: ProductProp) => (
         <div key={product.id} className="flex flex-col gap-10">
           <ul className="flex items-center justify-center md:justify-start gap-3">
             <li className="text-xs md:text-base text-neutral-500">
@@ -70,14 +70,14 @@ const page = async ({ params }: any) => {
           {/*------------------------------ END TOP BREADCRUMBS ----------------------------*/}
           <div className="h-fit flex flex-col lg:flex-row gap-10">
             <MotionDiv
-              variants={fadeInVaraient}
+              variants={fadeInVariants}
               initial="initial"
               whileInView="animate"
               viewport={{ once: true }}
               className="h-fit w-full lg:w-1/2 flex flex-col gap-5 relative"
             >
               <MotionDiv
-                variants={fadeInVaraient}
+                variants={fadeInVariants}
                 className="h-[350px] md:h-[480px] w-full rounded-[56px] overflow-hidden relative "
               >
                 <Image
@@ -90,7 +90,7 @@ const page = async ({ params }: any) => {
               {/*--- END THUMBNAIL IMAGE---*/}
               <div className="flex flex-col md:grid md:grid-cols-2 gap-5">
                 <MotionDiv
-                  variants={fadeInVaraient}
+                  variants={fadeInVariants}
                   className="h-[260px] w-full rounded-[56px] overflow-hidden relative"
                 >
                   <Image
@@ -102,7 +102,7 @@ const page = async ({ params }: any) => {
                 </MotionDiv>
                 {/*--- END SUB IMAGE ---*/}
                 <MotionDiv
-                  variants={fadeInVaraient}
+                  variants={fadeInVariants}
                   className="h-[260px] w-full rounded-[56px] overflow-hidden relative"
                 >
                   <Image
@@ -114,7 +114,7 @@ const page = async ({ params }: any) => {
                 </MotionDiv>
                 {/*--- END SUB IMAGE ---*/}
                 <MotionDiv
-                  variants={fadeInVaraient}
+                  variants={fadeInVariants}
                   className="h-[260px] w-full rounded-[56px] overflow-hidden relative"
                 >
                   <Image
@@ -126,7 +126,7 @@ const page = async ({ params }: any) => {
                 </MotionDiv>
                 {/*--- END SUB IMAGE ---*/}
                 <MotionDiv
-                  variants={fadeInVaraient}
+                  variants={fadeInVariants}
                   className="h-[260px] w-full rounded-[56px] overflow-hidden relative"
                 >
                   <Image
@@ -226,7 +226,7 @@ const page = async ({ params }: any) => {
               <h2 className="text-3xl">What customers are saying</h2>
             </div>
             <MotionDiv
-              variants={fadeInVaraient}
+              variants={fadeInVariants}
               initial="initial"
               whileInView="animate"
               viewport={{ once: true }}
@@ -234,7 +234,7 @@ const page = async ({ params }: any) => {
             >
               {testimonial.map((item, i) => (
                 <MotionDiv
-                  variants={fadeInVaraient}
+                  variants={fadeInVariants}
                   key={i}
                   className="h-fit w-full p-[30px] lg:h-[360px] bg-neutral-100 rounded-[40px]"
                 >
@@ -266,8 +266,8 @@ const page = async ({ params }: any) => {
                 viewport={{ once: true }}
                 className="flex flex-col gap-5 lg:gap-10 md:grid md:grid-cols-2 lg:grid-cols-3"
               >
-                {product.related.map(
-                  (product: relatedProduct, index: number) => (
+                {relateProducts.map(
+                  (product, index: number) => (
                     <div
                       key={index}
                       className="transition-all duration-300 group lg:hover:scale-110"

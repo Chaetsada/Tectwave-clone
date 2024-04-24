@@ -8,9 +8,7 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors:{
-        ft:"#0E0E0E",
-      },
+ 
     },
   },
   plugins: [],

@@ -5,7 +5,7 @@ import {
 } from "@/app/components/MotionComponent";
 import Accordion from "@/app/components/Accordion";
 import { AccordianProp } from "@/app/lib/type";
-import { accordionData as data } from "@/app/lib/constant";
+import { accordionData as data } from "@/app/lib/data";
 import React from "react";
 
 const variant = {
