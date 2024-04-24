@@ -3,7 +3,7 @@ import {
   MotionHeading,
   MotionParagraph,
 } from "@/app/components/MotionComponent";
-import { shippingInfo as data } from "@/app/lib/contant";
+import { shippingInfo as data } from "@/app/lib/constant";
 import React from "react";
 
 const variant = {

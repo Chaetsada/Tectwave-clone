@@ -1,14 +1,13 @@
-import getProducts from "@/app/actions/getProducts";
-import LinkButton from "@/app/components/LinkButton";
-import { ProductProp } from "@/app/lib/type";
-import { testimonial } from "@/app/lib/contant";
-import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+import LinkButton from "@/app/components/LinkButton";
+import { MotionDiv } from "@/app/components/MotionComponent";
+import getProduct from "@/app/actions/getProduct";
+import { ProductProp, relatedProduct } from "@/app/lib/type";
+import { testimonial } from "@/app/lib/constant";
 import { FaStripe } from "react-icons/fa6";
 import { FaCcPaypal } from "react-icons/fa6";
 import { FaCcMastercard } from "react-icons/fa";
-import Link from "next/link";
-import { MotionDiv } from "@/app/components/MotionComponent";
 
 const fadeInVaraient = {
   initial: {
@@ -40,16 +39,16 @@ const relateProdVarient = {
 };
 
 const page = async ({ params }: any) => {
-  const productsData = await getProducts();
+  const data = await getProduct();
 
-  const filteredData = productsData.filter(
+  const product = data.filter(
     (item: ProductProp) => item.link === `/products/${params.name}`
   );
 
   return (
     <main className="p-[24px] lg:p-[40px] relative">
-      {filteredData.map((product: ProductProp, index: number) => (
-        <div key={index} className="flex flex-col gap-10">
+      {product.map((product: ProductProp) => (
+        <div key={product.id} className="flex flex-col gap-10">
           <ul className="flex items-center justify-center md:justify-start gap-3">
             <li className="text-xs md:text-base text-neutral-500">
               <Link className="hover:underline hover:text-black" href="/store">
@@ -267,35 +266,39 @@ const page = async ({ params }: any) => {
                 viewport={{ once: true }}
                 className="flex flex-col gap-5 lg:gap-10 md:grid md:grid-cols-2 lg:grid-cols-3"
               >
-                {product.related.map((product, index: number) => (
-                  <div
-                    key={index}
-                    className="transition-all duration-300 group lg:hover:scale-110"
-                  >
-                    <Link href={product.link}>
-                      <div className="w-full h-[315px] rounded-2xl overflow-hidden relative">
-                        <div className="absolute top-3 left-3 z-20 bg-white p-3 shadow-2xl rounded-full">
-                          <p className="text-xs text-gray-500">{product.tag}</p>
+                {product.related.map(
+                  (product: relatedProduct, index: number) => (
+                    <div
+                      key={index}
+                      className="transition-all duration-300 group lg:hover:scale-110"
+                    >
+                      <Link href={product.link}>
+                        <div className="w-full h-[315px] rounded-2xl overflow-hidden relative">
+                          <div className="absolute top-3 left-3 z-20 bg-white p-3 shadow-2xl rounded-full">
+                            <p className="text-xs text-gray-500">
+                              {product.category}
+                            </p>
+                          </div>
+                          <Image
+                            className="object-cover"
+                            src={product.thumbnail}
+                            alt={product.title}
+                            fill
+                          />
                         </div>
-                        <Image
-                          className="object-cover"
-                          src={product.image}
-                          alt={product.name}
-                          fill
-                        />
-                      </div>
-                      <div className="flex flex-col mt-5 gap-3">
-                        <h5>{product.name}</h5>
-                        <p className="text-xs lg:text-base text-gray-500">
-                          {product.desc}
-                        </p>
-                        <h6 className="font-semibold mt-5">
-                          ${product.price} USD
-                        </h6>
-                      </div>
-                    </Link>
-                  </div>
-                ))}
+                        <div className="flex flex-col mt-5 gap-3">
+                          <h5>{product.title}</h5>
+                          <p className="text-xs lg:text-base text-gray-500">
+                            {product.description}
+                          </p>
+                          <h6 className="font-semibold mt-5">
+                            ${product.price} USD
+                          </h6>
+                        </div>
+                      </Link>
+                    </div>
+                  )
+                )}
               </MotionDiv>
             </div>
           </div>

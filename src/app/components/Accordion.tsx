@@ -18,7 +18,7 @@ const Accordion = ({ item }: Prop) => {
     >
       <div className="flex items-center">
         <div>
-          <p className="text-xs md:text-base">{item.title}</p>
+          <p className="text-xs md:text-base font-semibold">{item.title}</p>
         </div>
         <div
           className={` ml-auto transition-all duration-300 ${

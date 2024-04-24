@@ -1,8 +1,10 @@
-import getProducts from "@/app/actions/getProducts";
+
 import ProductCard from "@/app/components/ProductCard";
 import Link from "next/link";
 import { ProductProp } from "@/app/lib/type";
 import { MotionDiv } from "@/app/components/MotionComponent";
+import getProduct from "@/app/actions/getProduct";
+
 
 export const fadeInVariant = {
   initial: {
@@ -19,8 +21,9 @@ export const fadeInVariant = {
   },
 };
 
+
 export default async function Store() {
-  const products = await getProducts();
+  const data = await getProduct();
   return (
     <main className="pt-[80px] px-[24px] pb-[80px] md:pt-[80px] md:px-[40px] md:pb-[120px] lg:px-[64px] lg:pb-[160px]">
       <div className="flex flex-col gap-10">
@@ -71,7 +74,7 @@ export default async function Store() {
           animate="animate"
           className="flex flex-col gap-5 lg:gap-10 md:grid md:grid-cols-2 lg:grid-cols-3"
         >
-          {products.map((product: ProductProp) => (
+          {data.map((product: ProductProp) => (
             <ProductCard key={product.id} product={product} />
           ))}
         </MotionDiv>

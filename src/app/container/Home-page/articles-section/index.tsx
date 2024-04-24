@@ -1,4 +1,5 @@
-import getArticles from "@/app/actions/getArticles";
+
+import getArticle from "@/app/actions/getArticle";
 import ArticleCard from "@/app/components/ArticleCard";
 import { ArticleProps } from "@/app/lib/type";
 import Link from "next/link";
@@ -6,8 +7,9 @@ import React from "react";
 
 
 export default async function ArticlesSection() {
-  const data = await getArticles();
-  const filteredData = data.slice(0,2);
+  const data = await getArticle();
+  const article = data.slice(0,2)
+
   
   return (
     <main className="pt-[60px] pb-[80px] px-[24px] md:px-[40px] lg:px-[64px] lg:py-[120px]">
@@ -35,7 +37,7 @@ export default async function ArticlesSection() {
         </header>
 
         <div className="flex flex-col gap-5 md:grid md:grid-cols-2">
-          {filteredData.map((item:ArticleProps ) => (
+          {article.map((item:ArticleProps ) => (
             <ArticleCard
               key={item.id}
               item={item}

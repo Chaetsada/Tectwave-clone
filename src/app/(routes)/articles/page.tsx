@@ -1,4 +1,4 @@
-import getArticles from "@/app/actions/getArticles";
+import getArticle from "@/app/actions/getArticle";
 import ArticleCard from "@/app/components/ArticleCard";
 import {
   MotionDiv,
@@ -25,7 +25,7 @@ const varaiant = {
 };
 
 export default async function Articles() {
-  const data = await getArticles();
+  const data = await getArticle();
   return (
     <main className="py-[80px]">
       <div className="flex flex-col gap-5 lg:gap-20">

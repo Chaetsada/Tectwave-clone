@@ -7,15 +7,15 @@ import PartnerSection from "@/app/container/About-page/partners-section";
 import InstagramSection from "@/app/container/About-page/instagram-section";
 
 export default function About() {
-    return (
-        <main>
-            <HeroSection />
-            <StatisticSection />
-            <ValuePropSection />
-            <ValueSection />
-            <QualitySection />
-            <PartnerSection />
-            <InstagramSection />
-        </main>
-    );
-    }
+  return (
+    <main>
+      <HeroSection />
+      <StatisticSection />
+      <ValuePropSection />
+      <ValueSection />
+      <QualitySection />
+      <PartnerSection />
+      <InstagramSection />
+    </main>
+  );
+}

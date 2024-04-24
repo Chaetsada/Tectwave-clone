@@ -1,4 +1,4 @@
-import getProducts from "@/app/actions/getProducts";
+import getProduct from "@/app/actions/getProduct";
 import { MotionDiv } from "@/app/components/MotionComponent";
 import ProductCard from "@/app/components/ProductCard";
 import Link from "next/link";
@@ -6,7 +6,7 @@ import { ProductProp } from "@/app/lib/type";
 import { fadeInVariant } from "../page";
 
 export default async function Store() {
-  const data = await getProducts();
+  const data = await getProduct();
   const filteredData = data.filter(
     (item: ProductProp) => item.category === "technology"
   );

@@ -18,32 +18,32 @@ const variant = {
 };
 const featuredProd = [
   {
-    tag: "GEAR",
-    image: "https://framerusercontent.com/images/r59ibP0ToXB3BqtNzkTUDO9ww.jpg",
-    name: "iWatch SE 3",
+    category: "GEAR",
+    thumbnail: "https://framerusercontent.com/images/r59ibP0ToXB3BqtNzkTUDO9ww.jpg",
+    title: "iWatch SE 3",
     price: "$349.99 USD",
-    link: "/product/iwatch-se-3",
+    link: "/products/iwatch-se-3",
   },
   {
-    tag: "GEAR",
-    image: "https://framerusercontent.com/images/4UnXwoQPTBHjZGDJ1LNhcNeOJ4s.jpg",
-    name: "MX Master 3",
+    category: "GEAR",
+    thumbnail: "https://framerusercontent.com/images/4UnXwoQPTBHjZGDJ1LNhcNeOJ4s.jpg",
+    title: "MX Master 3",
     price: "$149.99 USD",
-    link: "/product/mx-master-3",
+    link: "/products/mx-master-3",
   },
   {
-    tag: "GEAR",
-    image: "https://framerusercontent.com/images/MPbVK9bO5c2jVsowVlIWlKUARY.png",
-    name: "Purifier",
+    category: "GEAR",
+    thumbnail: "https://framerusercontent.com/images/MPbVK9bO5c2jVsowVlIWlKUARY.png",
+    title: "Purifier",
     price: "$49.99 USD",
-    link: "/product/purifier",
+    link: "/products/purifier",
   },
   {
-    tag: "GEAR",
-    image: "https://framerusercontent.com/images/rt6R4qXulMH19LBMoEWW5QgHgA.png",
-    name: "iPhone Case",
+    category: "GEAR",
+    thumbnail: "https://framerusercontent.com/images/rt6R4qXulMH19LBMoEWW5QgHgA.png",
+    title: "iPhone Case",
     price: "$29.99 USD",
-    link: "/product/iphone-case",
+    link: "/products/iphone-case",
   },
 ];
 
@@ -62,7 +62,7 @@ export default function FeaturedSection() {
         {/*--- END HEADER ---*/}
         <div className="h-fit w-full flex flex-col gap-5 lg:gap-10 lg:flex-row">
           <div className="h-fit w-full lg:w-1/2 group">
-            <Link href="/product/lryx-watch">
+            <Link href="/products/lryx-watch">
               <div className="flex flex-col">
                 <div className="h-[310px] w-full lg:h-[720px]  relative rounded-2xl overflow-hidden">
                   <Image
@@ -103,16 +103,16 @@ export default function FeaturedSection() {
                     <div className="h-[310px] w-full relative rounded-[36px] overflow-hidden">
                       <Image
                         className="object-cover"
-                        src={product.image}
-                        alt={product.name}
+                        src={product.thumbnail}
+                        alt={product.title}
                         fill
                       />
                       <div className="absolute top-5 left-5 bg-white px-5 py-2 rounded-full shadow-2xl">
-                        <p className="text-xs text-gray-500">{product.tag}</p>
+                        <p className="text-xs text-gray-500">{product.category}</p>
                       </div>
                     </div>
                     <div className="flex flex-col gap-3 mt-5">
-                      <h5 className="text-xs lg:text-base">{product.name}</h5>
+                      <h5 className="text-xs lg:text-base">{product.title}</h5>
                       <h6 className="text-xs lg:text-base">{product.price}</h6>
                     </div>
                   </div>

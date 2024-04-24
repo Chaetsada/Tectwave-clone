@@ -75,14 +75,14 @@ export const shippingInfo = [
 export const testimonial = [
     {
       name: "Sophia L.",
-      phrase: `"I absolutely love my minimal watch! It's sleek, elegant, and goes with any outfit. The minimalist design is a true statement of sophistication. I receive compliments wherever I go, and it's become my go-to accessory. Highly recommended."`,
+      phrase: `I absolutely love my minimal watch! It's sleek, elegant, and goes with any outfit. The minimalist design is a true statement of sophistication. I receive compliments wherever I go, and it's become my go-to accessory. Highly recommended.`,
     },
     {
       name: "Jessika M.",
-      phrase: `"I've been searching for a minimalist watch for ages, and I'm thrilled to have found this gem. The clean lines and simple dial make it a perfect fit for my style. Not only does it look amazing, but the quality is exceptional. It's lightweight, comfortable, and keeps accurate time. This watch has exceeded my expectations!"`,
+      phrase: `I've been searching for a minimalist watch for ages, and I'm thrilled to have found this gem. The clean lines and simple dial make it a perfect fit for my style. Not only does it look amazing, but the quality is exceptional. It's lightweight, comfortable, and keeps accurate time. This watch has exceeded my expectations!`,
     },
     {
       name: "Ryan M.",
-      phrase: `"The minimal watch I purchased from this ecommerce site has quickly become my favorite timepiece. Its understated design is timeless, and the attention to detail is remarkable. The slim profile and premium materials make it feel luxurious on my wrist. I couldn't be happier with my purchase!"`,
+      phrase: `The minimal watch I purchased from this ecommerce site has quickly become my favorite timepiece. Its understated design is timeless, and the attention to detail is remarkable. The slim profile and premium materials make it feel luxurious on my wrist. I couldn't be happier with my purchase!`,
     },
   ];
