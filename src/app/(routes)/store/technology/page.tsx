@@ -52,7 +52,7 @@ export default async function Store() {
           animate="animate"
           className="flex flex-col gap-5 lg:gap-10 md:grid md:grid-cols-2 lg:grid-cols-3"
         >
-          {filteredData?.map((product: ProductProp) => (
+          {filteredData.map((product: ProductProp) => (
             <ProductCard key={product.id} product={product} />
           ))}
         </MotionDiv>
