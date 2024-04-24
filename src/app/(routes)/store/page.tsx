@@ -4,7 +4,7 @@ import { ProductProp } from "@/app/lib/type";
 import { MotionDiv } from "@/app/components/MotionComponent";
 import { products as data } from "@/app/lib/data";
 
-export const animVariants = {
+const animVariants = {
   initial: {
     opacity: 0,
     y: 30,

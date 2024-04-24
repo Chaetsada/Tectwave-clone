@@ -3,7 +3,22 @@ import ProductCard from "@/app/components/ProductCard";
 import Link from "next/link";
 import { ProductProp } from "@/app/lib/type";
 import { MotionDiv } from "@/app/components/MotionComponent";
-import { animVariants } from "../page";
+
+const animVariants = {
+  initial: {
+    opacity: 0,
+    y: 30,
+  },
+  animate: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.75,
+      ease: "easeInOut",
+    },
+  },
+};
+
 
 export default async function Store() {
  

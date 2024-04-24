@@ -3,7 +3,21 @@ import { MotionDiv } from "@/app/components/MotionComponent";
 import ProductCard from "@/app/components/ProductCard";
 import Link from "next/link";
 import { ProductProp } from "@/app/lib/type";
-import { animVariants } from "../page";
+
+const animVariants = {
+  initial: {
+    opacity: 0,
+    y: 30,
+  },
+  animate: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.75,
+      ease: "easeInOut",
+    },
+  },
+};
 
 export default async function Store() {
   const filteredData = data.filter(
@@ -17,7 +31,7 @@ export default async function Store() {
         </header>
         {/*--- END HEADER TEXT ---*/}
         <section>
-        <div className="flex flex-wrap gap-4">
+          <div className="flex flex-wrap gap-4">
             <Link
               href="/store"
               className="text-xs md:text-base font-semibold px-5 py-2 rounded-full inactive hover:cursor-pointer"
@@ -42,7 +56,6 @@ export default async function Store() {
             >
               Accessory
             </Link>
-           
           </div>
         </section>
         {/*---END TAGLINKS SECTION ---*/}
