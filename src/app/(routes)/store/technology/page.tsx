@@ -3,7 +3,7 @@ import { MotionDiv } from "@/app/components/MotionComponent";
 import ProductCard from "@/app/components/ProductCard";
 import Link from "next/link";
 import { ProductProp } from "@/app/lib/type";
-import { fadeInVariant } from "../page";
+import { animVariants } from "../page";
 
 export default async function Store() {
   const filteredData = data.filter(
@@ -47,7 +47,7 @@ export default async function Store() {
         </section>
         {/*---END TAGLINKS SECTION ---*/}
         <MotionDiv
-          variants={fadeInVariant}
+          variants={animVariants}
           initial="initial"
           animate="animate"
           className="flex flex-col gap-5 lg:gap-10 md:grid md:grid-cols-2 lg:grid-cols-3"

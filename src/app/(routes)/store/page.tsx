@@ -4,7 +4,7 @@ import { ProductProp } from "@/app/lib/type";
 import { MotionDiv } from "@/app/components/MotionComponent";
 import { products as data } from "@/app/lib/data";
 
-export const fadeInVariant = {
+export const animVariants = {
   initial: {
     opacity: 0,
     y: 30,
@@ -58,7 +58,7 @@ export default async function Store() {
         </section>
         {/*---END TAGLINKS SECTION ---*/}
         <MotionDiv
-          variants={fadeInVariant}
+          variants={animVariants}
           initial="initial"
           animate="animate"
           className="flex flex-col gap-5 lg:gap-10 md:grid md:grid-cols-2 lg:grid-cols-3"
