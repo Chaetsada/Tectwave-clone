@@ -102,7 +102,7 @@ export const relateProducts = [
     title: "Phone Charger Port",
     description: "Stay connected and keep your devices powered up with our convenient and versatile phone charger port",
     price: 199.99,
-    link: "/products/iphone-case"
+    link: "/products/phone-charger-port"
   },
   {
     category: "ACCESSORY",
@@ -189,32 +189,6 @@ export const products = [
       "https://framerusercontent.com/images/ACgUonkl6oxR1f3a6GUUNNBLJQ.png",
       "https://framerusercontent.com/images/W11ZnRlifqQmhRzudFGbvB7xI.png"
     ],
-    related: [
-      {
-        category: "TECHNOLOGY",
-        thumbnail: "https://framerusercontent.com/images/c4VlFD3hXnlGGZX0eZBlR3g18U.png",
-        title: "VR Headset",
-        description: "Step into the realm of virtual reality and unlock immersive experiences with our cutting-edge VR headset",
-        price: 549.99,
-        link: "/products/vr-headset"
-      },
-      {
-        category: "ACCESSORY",
-        thumbnail: "https://framerusercontent.com/images/Fd0eZTgAzpZJV5NLAjTLwtlz3M.jpg",
-        title: "Phone Charger Port",
-        description: "Stay connected and keep your devices powered up with our convenient and versatile phone charger port",
-        price: 199.99,
-        link: "/products/iphone-case"
-      },
-      {
-        category: "ACCESSORY",
-        thumbnail: "https://framerusercontent.com/images/rt6R4qXulMH19LBMoEWW5QgHgA.png",
-        title: "iPhone Case",
-        description: "Protect your iPhone in style with our sleek and durable iPhone case, combining protection and aesthetics",
-        price: 29.99,
-        link: "/products/iphone-case"
-      }
-    ]
   },
   {
     id: 3,
@@ -231,32 +205,6 @@ export const products = [
       "https://framerusercontent.com/images/Za1JmWF64M8Bdp1l2vEdHGMhXg.jpg",
       "https://framerusercontent.com/images/nyvKO6dkJH7jSK0mBuC2L57zSL8.png"
     ],
-    related: [
-      {
-        category: "TECHNOLOGY",
-        thumbnail: "https://framerusercontent.com/images/c4VlFD3hXnlGGZX0eZBlR3g18U.png",
-        title: "VR Headset",
-        description: "Step into the realm of virtual reality and unlock immersive experiences with our cutting-edge VR headset",
-        price: 549.99,
-        link: "/products/vr-headset"
-      },
-      {
-        category: "ACCESSORY",
-        thumbnail: "https://framerusercontent.com/images/Fd0eZTgAzpZJV5NLAjTLwtlz3M.jpg",
-        title: "Phone Charger Port",
-        description: "Stay connected and keep your devices powered up with our convenient and versatile phone charger port",
-        price: 199.99,
-        link: "/products/iphone-case"
-      },
-      {
-        category: "ACCESSORY",
-        thumbnail: "https://framerusercontent.com/images/rt6R4qXulMH19LBMoEWW5QgHgA.png",
-        title: "iPhone Case",
-        description: "Protect your iPhone in style with our sleek and durable iPhone case, combining protection and aesthetics",
-        price: 29.99,
-        link: "/products/iphone-case"
-      }
-    ]
   },
   {
     id: 4,
@@ -273,32 +221,6 @@ export const products = [
       "https://framerusercontent.com/images/f3sG7FvAPqf8z60HSf00CRBgFg.png",
       "https://framerusercontent.com/images/TPpAL6A3f9OCGVZvFMaeKz1eSzM.png"
     ],
-    related: [
-      {
-        category: "TECHNOLOGY",
-        thumbnail: "https://framerusercontent.com/images/c4VlFD3hXnlGGZX0eZBlR3g18U.png",
-        title: "VR Headset",
-        description: "Step into the realm of virtual reality and unlock immersive experiences with our cutting-edge VR headset",
-        price: 549.99,
-        link: "/products/vr-headset"
-      },
-      {
-        category: "ACCESSORY",
-        thumbnail: "https://framerusercontent.com/images/Fd0eZTgAzpZJV5NLAjTLwtlz3M.jpg",
-        title: "Phone Charger Port",
-        description: "Stay connected and keep your devices powered up with our convenient and versatile phone charger port",
-        price: 199.99,
-        link: "/products/iphone-case"
-      },
-      {
-        category: "ACCESSORY",
-        thumbnail: "https://framerusercontent.com/images/rt6R4qXulMH19LBMoEWW5QgHgA.png",
-        title: "iPhone Case",
-        description: "Protect your iPhone in style with our sleek and durable iPhone case, combining protection and aesthetics",
-        price: 29.99,
-        link: "/products/iphone-case"
-      }
-    ]
   },
   {
     id: 5,
@@ -315,32 +237,6 @@ export const products = [
       "https://framerusercontent.com/images/bp6b5AYHO6t9S7ubO6rpeqTmrs.jpg",
       "https://framerusercontent.com/images/WQ5PRgRPZJkqT0Dvydw1LpdVpR0.png"
     ],
-    related: [
-      {
-        category: "TECHNOLOGY",
-        thumbnail: "https://framerusercontent.com/images/c4VlFD3hXnlGGZX0eZBlR3g18U.png",
-        title: "VR Headset",
-        description: "Step into the realm of virtual reality and unlock immersive experiences with our cutting-edge VR headset",
-        price: 549.99,
-        link: "/products/vr-headset"
-      },
-      {
-        category: "ACCESSORY",
-        thumbnail: "https://framerusercontent.com/images/Fd0eZTgAzpZJV5NLAjTLwtlz3M.jpg",
-        title: "Phone Charger Port",
-        description: "Stay connected and keep your devices powered up with our convenient and versatile phone charger port",
-        price: 199.99,
-        link: "/products/iphone-case"
-      },
-      {
-        category: "ACCESSORY",
-        thumbnail: "https://framerusercontent.com/images/rt6R4qXulMH19LBMoEWW5QgHgA.png",
-        title: "iPhone Case",
-        description: "Protect your iPhone in style with our sleek and durable iPhone case, combining protection and aesthetics",
-        price: 29.99,
-        link: "/products/iphone-case"
-      }
-    ]
   },
   {
     id: 6,
@@ -357,32 +253,6 @@ export const products = [
       "https://framerusercontent.com/images/apXXueOji5WNOfLEN7wRU7HEj4.png",
       "https://framerusercontent.com/images/rt6R4qXulMH19LBMoEWW5QgHgA.png"
     ],
-    related: [
-      {
-        category: "TECHNOLOGY",
-        thumbnail: "https://framerusercontent.com/images/c4VlFD3hXnlGGZX0eZBlR3g18U.png",
-        title: "VR Headset",
-        description: "Step into the realm of virtual reality and unlock immersive experiences with our cutting-edge VR headset",
-        price: 549.99,
-        link: "/products/vr-headset"
-      },
-      {
-        category: "ACCESSORY",
-        thumbnail: "https://framerusercontent.com/images/Fd0eZTgAzpZJV5NLAjTLwtlz3M.jpg",
-        title: "Phone Charger Port",
-        description: "Stay connected and keep your devices powered up with our convenient and versatile phone charger port",
-        price: 199.99,
-        link: "/products/iphone-case"
-      },
-      {
-        category: "ACCESSORY",
-        thumbnail: "https://framerusercontent.com/images/rt6R4qXulMH19LBMoEWW5QgHgA.png",
-        title: "iPhone Case",
-        description: "Protect your iPhone in style with our sleek and durable iPhone case, combining protection and aesthetics",
-        price: 29.99,
-        link: "/products/iphone-case"
-      }
-    ]
   },
   {
     id: 7,
@@ -399,32 +269,6 @@ export const products = [
       "https://framerusercontent.com/images/VHvDShxArZv12GnaxAvl3quIjns.jpg",
       "https://framerusercontent.com/images/zsAt526gTiP2TQaNcjIZ5xUl0.jpg"
     ],
-    related: [
-      {
-        category: "TECHNOLOGY",
-        thumbnail: "https://framerusercontent.com/images/c4VlFD3hXnlGGZX0eZBlR3g18U.png",
-        title: "VR Headset",
-        description: "Step into the realm of virtual reality and unlock immersive experiences with our cutting-edge VR headset",
-        price: 549.99,
-        link: "/products/vr-headset"
-      },
-      {
-        category: "ACCESSORY",
-        thumbnail: "https://framerusercontent.com/images/Fd0eZTgAzpZJV5NLAjTLwtlz3M.jpg",
-        title: "Phone Charger Port",
-        description: "Stay connected and keep your devices powered up with our convenient and versatile phone charger port",
-        price: 199.99,
-        link: "/products/iphone-case"
-      },
-      {
-        category: "ACCESSORY",
-        thumbnail: "https://framerusercontent.com/images/rt6R4qXulMH19LBMoEWW5QgHgA.png",
-        title: "iPhone Case",
-        description: "Protect your iPhone in style with our sleek and durable iPhone case, combining protection and aesthetics",
-        price: 29.99,
-        link: "/products/iphone-case"
-      }
-    ]
   },
   {
     id: 8,
@@ -441,32 +285,6 @@ export const products = [
       "https://framerusercontent.com/images/2fUCj22R5HNoHHHRXLutcE5jQgM.png",
       "https://framerusercontent.com/images/XjSeDTEB1oRJwgT6En8DjSsJa0E.png"
     ],
-    related: [
-      {
-        category: "TECHNOLOGY",
-        thumbnail: "https://framerusercontent.com/images/c4VlFD3hXnlGGZX0eZBlR3g18U.png",
-        title: "VR Headset",
-        description: "Step into the realm of virtual reality and unlock immersive experiences with our cutting-edge VR headset",
-        price: 549.99,
-        link: "/products/vr-headset"
-      },
-      {
-        category: "ACCESSORY",
-        thumbnail: "https://framerusercontent.com/images/Fd0eZTgAzpZJV5NLAjTLwtlz3M.jpg",
-        title: "Phone Charger Port",
-        description: "Stay connected and keep your devices powered up with our convenient and versatile phone charger port",
-        price: 199.99,
-        link: "/products/iphone-case"
-      },
-      {
-        category: "ACCESSORY",
-        thumbnail: "https://framerusercontent.com/images/rt6R4qXulMH19LBMoEWW5QgHgA.png",
-        title: "iPhone Case",
-        description: "Protect your iPhone in style with our sleek and durable iPhone case, combining protection and aesthetics",
-        price: 29.99,
-        link: "/products/iphone-case"
-      }
-    ]
   },
   {
     id: 9,
@@ -483,32 +301,6 @@ export const products = [
       "https://framerusercontent.com/images/mHPSewytudzkqpaewSdTBmYCTB4.jpeg",
       "https://framerusercontent.com/images/SFTSw86eQ5hsUT0B7twmDY5bYxM.png"
     ],
-    related: [
-      {
-        category: "TECHNOLOGY",
-        thumbnail: "https://framerusercontent.com/images/c4VlFD3hXnlGGZX0eZBlR3g18U.png",
-        title: "VR Headset",
-        description: "Step into the realm of virtual reality and unlock immersive experiences with our cutting-edge VR headset",
-        price: 549.99,
-        link: "/products/vr-headset"
-      },
-      {
-        category: "ACCESSORY",
-        thumbnail: "https://framerusercontent.com/images/Fd0eZTgAzpZJV5NLAjTLwtlz3M.jpg",
-        title: "Phone Charger Port",
-        description: "Stay connected and keep your devices powered up with our convenient and versatile phone charger port",
-        price: 199.99,
-        link: "/products/iphone-case"
-      },
-      {
-        category: "ACCESSORY",
-        thumbnail: "https://framerusercontent.com/images/rt6R4qXulMH19LBMoEWW5QgHgA.png",
-        title: "iPhone Case",
-        description: "Protect your iPhone in style with our sleek and durable iPhone case, combining protection and aesthetics",
-        price: 29.99,
-        link: "/products/iphone-case"
-      }
-    ]
   }
 ]
 
